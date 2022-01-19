@@ -64,7 +64,7 @@
       {{ if $summary }}
       {{ $summary = (markdownify $summary) }}
       {{ else }}
-      {{ $summary = ((delimit (findRE "(<p.*?>(.|\n)*?</p>\\s*)+" .Content) "[&hellip;] ") | plainify | truncate (default 200 .Site.Params.summaryLength) (default " &hellip;" .Site.Params.textTruncated ) | replaceRE "&amp;" "&") }}
+      {{ $summary = ((delimit (findRE "(<p.*?>(.|\n)*?</p>\\s*)+" .Content) "[&hellip;] ") | plainify | truncate (default 230 .Site.Params.summaryLength) (default " &hellip;" .Site.Params.textTruncated ) | replaceRE "&amp;" "&") }}
       {{ end }}
       {{ $summary | safeHTML }}
       <a href="{{ .RelPermalink }}" class="more" title={{ i18n "readMore" }}>{{ i18n "readMore" }} &rarr;</a>
