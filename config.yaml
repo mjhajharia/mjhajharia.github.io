@@ -22,12 +22,14 @@ menu:
     # - name: Search
     #   url: "#"
     #   identifier: menu-search
-    - name: Posts
+    - name: blog
       url: "/post"
-    - name: Poems
+    - name: poetry
       url: "/poem"
     - name: cv
       url: "/cv.pdf"
+    - name: notes
+      url: "/note"
     # - name: Projects
     #   url: "/project"
     # - name: Talks
