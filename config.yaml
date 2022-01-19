@@ -26,6 +26,8 @@ menu:
       url: "/post"
     - name: Poems
       url: "/poem"
+    - name: cv
+      url: "/cv.pdf"
     # - name: Projects
     #   url: "/project"
     # - name: Talks
