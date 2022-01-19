@@ -7,7 +7,7 @@ menu:
 
 # About
 
-<div class="quote-right" style="text-align: right; margin-left: -9.5em;margin-right: 2.5em">
+<div class="quote-right" style="text-align: right; margin-left: -11.5em;margin-right: 2.5em">
 <img src="images/profile.jpeg" alt="Avatar" style='border-radius: 50%;max-width: 43%;height: auto;'>
 </div>
 

@@ -5,7 +5,7 @@ body {
   line-height: 1.5em;
   overflow-x: hidden;
 }
-body, .side, .menu { background: #fafafa; }
+body, .side, .menu { background: #ffffff; }
 main, .menu ul, .footer, .single section, .post-nav {
   max-width: 800px;
   margin: 0 auto 0;
@@ -32,21 +32,21 @@ main {
 .article-list, .single main, .single .appendix, .fullwidth, .embed-left, .embed-right {
   margin-top: 2em;
   padding: 1em;
-  box-shadow: 0 0 8px #ccc;
-  background: #fff;
+  box-shadow: 0 0 8px #ffffff;
+  background: #ffffff;
 }
 .post-card { margin-top: 1em; }
 
 /* header and footer areas */
-.menu { box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.1); }
+.menu { box-shadow: 0px 10px 10px -5px rgba(255, 255, 255, 0.1); }
 .sticky-top {
   position: sticky;
   top: 0;
   z-index: 2;
 }
 .menu li, .terms li, .footer li { display: inline-block; }
-.article-meta { background: #f8f8f8; }
-footer { background: #fafafa; }
+.article-meta { background: #ffffff; }
+footer { background: #ffffff; }
 .menu ul {
   padding: 1em 0 1em;
   display: flex;
@@ -57,10 +57,10 @@ footer { background: #fafafa; }
   border-radius: 5px;
 }
 .menu a, .footer a { margin: 1px; }
-.menu a, .pagination a, .article-meta a { color: darkslategray; }
+.menu a, .pagination a, .article-meta a { color: #232323; }
 .menu a:hover, .menu .active, .summary::first-letter, .footer a:hover, .terms a:hover, .bg-number {
-  background: rgb(255, 255, 255);
-  color: #000;
+  background: #ffffff;
+  color: #232323;
 }
 .menu, .article-meta, .post-nav { text-align: center; }
 .menu ul, .terms, .footer ul { padding-left: 0; }
@@ -75,7 +75,7 @@ footer { background: #fafafa; }
 }
 .article-meta .terms, .appendix, .footnotes, main .side > *, figcaption, .caption { font-size: .9em; }
 .terms a {
-  border: 1px solid lightslategray;
+  border: 1px solid #232323;
   line-height: 2em;
 }
 .terms a, .bg-number {
@@ -90,7 +90,7 @@ footer { margin-top: 2em; }
 
 hr {
   border-style: dashed;
-  color: #ddd;
+  color: #232323;
   width: 50%;
 }
 .footnotes hr { margin-left: 0; }
@@ -105,14 +105,14 @@ hr {
 #TOC .numbered { list-style: none; }
 
 .appendix div:not(:last-child):not(.side) {
-  border-bottom: 1px dashed lightslategray;
+  border-bottom: 1px dashed rgb(255, 255, 255);
   padding-bottom: 1em;
   margin-bottom: 1em;
 }
 
 /* code */
 pre {
-  border: 1px solid #ddd;
+  border: 1px solid rgb(255, 255, 255);
   overflow-x: auto;
 }
 pre code { background: none; }
@@ -172,7 +172,7 @@ h3.side-left { text-align: right; }
   transform: translateX(-50%);
   float: left;
   min-width: 100%;
-  background: white;
+  background: #ffffff;
 }
 .fullscroll, .fullscroll figure, .fullscroll .figure { overflow-x: auto; }
 .fullwidth figcaption, .fullwidth .caption {
@@ -196,7 +196,7 @@ h3.side-left { text-align: right; }
   width: 100%;
   background: transparent;
   border: none;
-  border-bottom: 2px solid lightslategray;
+  border-bottom: 2px solid rgb(255, 255, 255);
 }
 .search-results b {
   font-weight: normal;
@@ -210,7 +210,7 @@ iframe, video {
   margin: auto;
 }
 .title, code, .article-list .side-title { hyphens: none; }
-blockquote, code, .article tbody tr:nth-child(odd) { background: #f9f9f9; }
+blockquote, code, .article tbody tr:nth-child(odd) { background: #ffffff; }
 blockquote {
   border-left: 5px solid #ccc;
   padding: 1px 0 1px 1em;
@@ -223,7 +223,7 @@ blockquote {
 .single .appendix { background: none; }
 .article-list a, .footer a {
   text-decoration: none;
-  color: #000;
+  color: #232323;
 }
 .article-list h1 a {
   width: 100%;
@@ -231,7 +231,7 @@ blockquote {
 }
 .article-list h1 a:hover { color: #71a5d4; }
 .article-list h1 {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid rgb(255, 255, 255);
   margin: 5px 0px 10px;
 }
 .article-list .side-title { transform: rotate(90deg); }
@@ -246,7 +246,7 @@ blockquote {
 .article-list td { padding: 0; }
 .side-title { width: 3em; }
 .side-title h1 { border: none; }
-.post-card .side-title h1 a, .post-card .spacer-right, .appendix h3 { color: lightslategray; }
+.post-card .side-title h1 a, .post-card .spacer-right, .appendix h3 { color: rgb(255, 255, 255); }
 .appendix h3 { text-align: right; }
 .summary { margin-top: .5em; }
 .pagination { text-align: center; }
@@ -260,18 +260,18 @@ blockquote {
 }
 .nav-prev { text-align: right; }
 .nav-next { text-align: left; }
-.footer, .footer a { color: rgb(0, 0, 0);background: #fafafa; }
+.footer, .footer a { color: #232323;background: #ffffff; }
 .more { font-style: italic; }
 .hidden { display: none; }
 .draft {
-  background: repeating-linear-gradient( 135deg, white, white 10px, #ffd4a3 12px, #ffd4a3 12px );
+  background: repeating-linear-gradient( 135deg, #ffffff, #ffffff 10px);
 }
 .watermark {
   position: fixed;
   transform: rotate(-45deg);
   font-size: 12em;
   width: 100%;
-  color: lightgray;
+  color: #232323;
   opacity: 0.3;
   left: 0;
   text-align: center;
@@ -279,10 +279,10 @@ blockquote {
 }
 table {
   margin: 1em auto auto;
-  border-top: 1px solid #666;
-  border-bottom: 1px solid #666;
+  border-top: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
-table thead th { border-bottom: 1px solid #ddd; }
+table thead th { border-bottom: 1px solid rgb(255, 255, 255); }
 th, td { padding: 5px; }
 
 /* responsive */
@@ -298,13 +298,13 @@ th, td { padding: 5px; }
 }
 @media (max-width: 1280px) {
   #TOC {
-    border: 1px solid #eee;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 5px;
     padding: 1em;
     position: initial;
   }
   .side { width: 100%; }
-  main .side { padding: 0 2em; color: #fafafa; }
+  main .side { padding: 0 2em; color: #ffffff; }
   .side-left, .side-right {
     clear: both;
     margin: 1em auto;
@@ -346,11 +346,11 @@ th, td { padding: 5px; }
 }
 
 /* dark theme */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   body {
-    background-color: darkslategray;
+    background-color: rgb(255, 255, 255);
     filter: invert(1);
   }
   img { filter: invert(1); }
-  .article-list { box-shadow: 0 0 8px #333; }
-}
+  .article-list { box-shadow: 0 0 8px rgb(255, 255, 255); }
+} */

@@ -1,9 +1,9 @@
 ---
 title: More
-style: 'background: white; color: black;'
+style: 'background: #ffffff; color: #232323;'
 weight: 4
 ---
 
-I have been thinking about tools for thought and trying to write (some of) my notes( and thoughts) publicly. My thoughts on this are briefly summarised here
+[I have been thinking about tools for thought and trying to write (some of) my notes publicly.](https://mjhajharia.com/note)
 
-Once in a while I write a bit of poetry!! 
+[Once in a while I write a bit of poetry!!](https://mjhajharia.com/poems)

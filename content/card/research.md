@@ -1,6 +1,6 @@
 ---
 title: Research
-style: 'background: #ffffff;'
+style: 'background: #ffffff;color: #232323;'
 weight: 2
 ---
 
@@ -10,4 +10,4 @@ I spent the summer working on with Prof. Ujjwal Maulik and Prof. Sanghamitra Ban
 
 January 2020 | Semester Long Project - Natural Language Processing
 
-Developed an Unsupervised, graph-based algorithm for Keyphrase Extraction that exploits syntactic relations using dependency parsing, augmented with local text attributes. We reconstruct dependency trees in a Hyperbolic metric space to locate keywords, further ranked by statistical NLP features.\[[pdf](https://mjhajharia.com/keyword.pdf)\]
+Developed an Unsupervised, graph-based algorithm for Keyphrase Extraction that exploits syntactic relations using dependency parsing, augmented with local text attributes. We reconstruct dependency trees in a Hyperbolic metric space to locate keywords, which are then further ranked by statistical NLP features. [[doc]](https://mjhajharia.com/keyword.pdf)
