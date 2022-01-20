@@ -4,7 +4,7 @@ defaultContentLanguage: "en"
 # defaultContentLanguage: "zh"
 title: "Meenal Jhajharia"
 theme: "hugo-prose"
-googleAnalytics: ""
+googleAnalytics: "G-2VQ9CZ05SL"
 disqusShortname: ""
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 footnotereturnlinkcontents: "↩"
