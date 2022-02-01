@@ -1,7 +1,7 @@
 ---
 title: 'Summing up Summer'
 # author: Meenal Jhajharia
-date: '2022-01-20'
+date: '2021-08-20'
 categories:
   - Blog
 tags:
