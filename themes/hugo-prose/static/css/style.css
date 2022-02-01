@@ -345,6 +345,27 @@ th, td { padding: 5px; }
   .search input, .search #menu-search a { font-size: 1em; }
 }
 
+a:link {
+  color: #7e7e7e; /* dark gray */
+  background-color: transparent; 
+
+}
+a:visited {
+  color: #7e7e7e; /* dark gray */
+  background-color: transparent; 
+
+}
+a:hover {
+  color: #000000; /* black */
+  background-color: transparent;
+
+}
+a:active {
+  color: #000000; /* black */
+  background-color: transparent;
+
+}
+
 /* dark theme */
 /* @media (prefers-color-scheme: dark) {
   body {
