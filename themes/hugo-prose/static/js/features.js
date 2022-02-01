@@ -125,16 +125,7 @@
     numbered = has_number(h.innerText);
     if (numbered) break;
   }
-  if (!numbered) hs.forEach(function(h) {
-    t1 = level(h.tagName);
-    if (t1 < t0) {
-      for (var j = t1; j < dict.length; j++) {
-        dict[j] = 0;
-      }
-    }
-    h.insertBefore(d.createTextNode(number_section(t1 - 1)), h.firstChild);
-    t0 = t1;
-  });
+
   // avoid Pandoc's numbering from 0 (e.g., 0.1, 0.1.1, 0.2, ...) when top-level heading is not h1
   article.querySelectorAll('span.header-section-number').forEach(function(s) {
     s.innerText = s.innerText.replace(/^(0[.])+/, '');
@@ -187,9 +178,6 @@
       toc.insertBefore(h, t);
     }
     toc.className = 'side side-left';
-    toc.querySelectorAll('ul > li').forEach(function(p) {
-      has_number(p.innerText) && p.parentNode.classList.add('numbered');
-    });
   }
 
   // make the top menu sticky
