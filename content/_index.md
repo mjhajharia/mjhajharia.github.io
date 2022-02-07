@@ -11,6 +11,6 @@ menu:
 <img src="profile.jpeg" alt="Avatar" style='border-radius: 50%;max-width: 43%;height: auto;'>
 </div>
 
-This is Meenal, my pronouns are She/Her. I’m a 19 year old junior at University of Delhi, majoring in CS and math. Academically, my interests are centered around Computational Geometry and Spectral Graph theory in the design and analysis of Discrete Algorithms, their utilities in representation learning. These days I’m thinking about Manifold Learning with applications in Computational Linguistics and Algorithmic Fairness.
+This is Meenal, my pronouns are She/Her. I’m a 19 year old junior at University of Delhi, majoring in CS and math. Broadly speaking, my research interests are all over the place - Theory and Algorithms, Machine Learning (theory and applications) and Probabilistic Computation. Specific areas are  Computational Geometry, Spectral Graph theory in the design and analysis of Discrete Algorithms, their utilities in representation learning. These days I’m thinking about Manifold Learning with applications in Computational Linguistics and Algorithmic Fairness.
 
 **email:** meenal[at]mjhajharia[dot]com | [Github](https://github.com/mjhajharia) | [Twitter](https://twitter.com/meenaljhajharia) | [LinkedIn](https://www.linkedin.com/in/meenal-jhajharia-b9a9b917b/)
