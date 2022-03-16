@@ -62,7 +62,7 @@ footer { background: #ffffff; }
   background: #ffffff;
   color: #232323;
 }
-.menu, .article-meta, .post-nav { text-align: center; }
+.menu, .article-meta, .post-nav { text-align: left; }
 .menu ul, .terms, .footer ul { padding-left: 0; }
 .menu .left {
   flex-grow: 1;
