@@ -12,7 +12,6 @@ menu:
 <figcaption style='text-align: center;'>she/her</figcaption>
 </div>
 
-I’m a 19 year old junior at University of Delhi, majoring in CS and Math. I'm broadly interested in Computational Learning Theory and Algorithms related to Computational geometry and spectral graph theory. Alongside, I dabble in probabilistic computation and contribute to PyMC, this summer I'll be working on transforms for constrained parameters in HMC sampling with Bob Carpenter at [Flatiron Institute](https://www.simonsfoundation.org/flatiron/center-for-computational-mathematics/). I am also involved as a head TA in [Aki's Bayesian Data Analysis course, do sign up!](https://avehtari.github.io/BDA_course_Aalto/gsu2022.html)
-
+{thinking about a suitable introduction, aka identity crisis}
 
 **email:** meenal[at]mjhajharia[dot]com | [Github](https://github.com/mjhajharia) | [Twitter](https://twitter.com/meenaljhajharia) | [LinkedIn](https://www.linkedin.com/in/meenal-jhajharia-b9a9b917b/)
