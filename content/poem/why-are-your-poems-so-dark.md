@@ -1,0 +1,30 @@
+---
+title: 'Why are your poems so dark'
+author: 'Linda Pastan'
+tags:
+  - stuff
+---
+
+Isn’t the moon dark too,
+most of the time?
+
+And doesn’t the white page
+seem unfinished
+
+without the dark stain
+of alphabets?
+
+When God demanded light,
+he didn’t banish darkness.
+
+Instead he invented
+ebony and crows
+
+and that small mole
+on your left cheekbone.
+
+Or did you mean to ask
+“Why are you sad so often?”
+
+Ask the moon.
+Ask what it has witnessed.

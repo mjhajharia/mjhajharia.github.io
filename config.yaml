@@ -23,8 +23,8 @@ menu:
     #   identifier: menu-search
     - name: blog
       url: "/post"
-    - name: poetry
-      url: "/poem"
+    - name: stuff
+      url: "/stuff"
     - name: cv
       url: "/cv.pdf"
     - name: notes
@@ -57,11 +57,11 @@ params:
     A website built through Hugo and blogdown with the hugo-prose theme.
   footer: >
     &copy; Meenal Jhajharia 2022
-  license: >
-    Text and figures are licensed under [Creative Commons Attribution CC BY
-    4.0](https://creativecommons.org/licenses/by/4.0/). The source code is
-    licensed under MIT. The full source is available at
-    https://github.com/yihui/hugo-prose.
+  # license: >
+  #   Text and figures are licensed under [Creative Commons Attribution CC BY
+  #   4.0](https://creativecommons.org/licenses/by/4.0/). The source code is
+  #   licensed under MIT. The full source is available at
+  #   https://github.com/yihui/hugo-prose.
 
 markup:
   highlight:
